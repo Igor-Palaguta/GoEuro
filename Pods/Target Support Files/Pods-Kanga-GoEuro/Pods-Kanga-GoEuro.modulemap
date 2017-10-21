@@ -1,0 +1,6 @@
+framework module Pods_Kanga_GoEuro {
+  umbrella header "Pods-Kanga-GoEuro-umbrella.h"
+
+  export *
+  module * { export * }
+}
