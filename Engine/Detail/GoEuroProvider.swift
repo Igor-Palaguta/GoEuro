@@ -35,7 +35,7 @@ final class GoEuroProvider: DataProvider {
               let options = try self.decoder.decode([ManagedTravelOption].self, from: data)
                let realm = try Realm()
                try realm.write {
-                  realm.add(options, update: true)
+                  realm.add(options)
                }
                return SignalProducer(value: options.map { ThreadSafeReference(to: $0) })
             } catch {

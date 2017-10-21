@@ -1,17 +1,13 @@
 import Foundation
 import RealmSwift
 
-class ManagedTravelOption: RealmSwift.Object, Decodable {
+final class ManagedTravelOption: RealmSwift.Object, Decodable {
    @objc dynamic var id = 0
    @objc dynamic var numberOfStops = 0
    @objc dynamic var logoUrlFormat = ""
    @objc dynamic var price = ""
    @objc dynamic var departure = Date()
    @objc dynamic var arrival = Date()
-
-   override static func primaryKey() -> String? {
-      return "id"
-   }
 
    private enum CodingKeys: String, CodingKey {
       case id  = "id"
@@ -44,4 +40,3 @@ extension ManagedTravelOption: TravelOption {
       return URL(string: urlString)
    }
 }
-

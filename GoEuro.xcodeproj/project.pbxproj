@@ -29,7 +29,7 @@
 		78F8A2151F9BFBBA005CFDE1 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F8A2121F9BFBBA005CFDE1 /* DataProvider.swift */; };
 		78F8A2161F9BFBBA005CFDE1 /* GoEuroProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F8A2131F9BFBBA005CFDE1 /* GoEuroProvider.swift */; };
 		78F8A2181F9BFBCF005CFDE1 /* NeverDieCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F8A2171F9BFBCF005CFDE1 /* NeverDieCache.swift */; };
-		78F8A21A1F9BFC17005CFDE1 /* ManagedSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F8A2191F9BFC17005CFDE1 /* ManagedSession.swift */; };
+		78F8A21A1F9BFC17005CFDE1 /* ManagedOptionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F8A2191F9BFC17005CFDE1 /* ManagedOptionsList.swift */; };
 		881129921FC4ACF2D14E3334 /* Pods_Kanga_Engine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A36D88C29DA94F2C1DCDC1 /* Pods_Kanga_Engine.framework */; };
 		A3D0DF735A8BBFCBF673011D /* Pods_Kanga_GoEuro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4603D9151A1218D556AD09 /* Pods_Kanga_GoEuro.framework */; };
 /* End PBXBuildFile section */
@@ -85,7 +85,7 @@
 		78F8A2121F9BFBBA005CFDE1 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		78F8A2131F9BFBBA005CFDE1 /* GoEuroProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoEuroProvider.swift; sourceTree = "<group>"; };
 		78F8A2171F9BFBCF005CFDE1 /* NeverDieCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverDieCache.swift; sourceTree = "<group>"; };
-		78F8A2191F9BFC17005CFDE1 /* ManagedSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedSession.swift; sourceTree = "<group>"; };
+		78F8A2191F9BFC17005CFDE1 /* ManagedOptionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedOptionsList.swift; sourceTree = "<group>"; };
 		95E02C4D6E2500DF50275430 /* Pods-Kanga-Engine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kanga-Engine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kanga-Engine/Pods-Kanga-Engine.release.xcconfig"; sourceTree = "<group>"; };
 		9F40EB2BD5A0DC63CEB95C59 /* Pods-Kanga-Engine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kanga-Engine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kanga-Engine/Pods-Kanga-Engine.debug.xcconfig"; sourceTree = "<group>"; };
 		AB4603D9151A1218D556AD09 /* Pods_Kanga_GoEuro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kanga_GoEuro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,7 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				78F8A1F91F9AA71C005CFDE1 /* ManagedTravelOption.swift */,
-				78F8A2191F9BFC17005CFDE1 /* ManagedSession.swift */,
+				78F8A2191F9BFC17005CFDE1 /* ManagedOptionsList.swift */,
 			);
 			path = Managed;
 			sourceTree = "<group>";
@@ -466,7 +466,7 @@
 				78F8A2181F9BFBCF005CFDE1 /* NeverDieCache.swift in Sources */,
 				78F8A20F1F9BEE6A005CFDE1 /* ApiError.swift in Sources */,
 				78F8A1FA1F9AA71C005CFDE1 /* ManagedTravelOption.swift in Sources */,
-				78F8A21A1F9BFC17005CFDE1 /* ManagedSession.swift in Sources */,
+				78F8A21A1F9BFC17005CFDE1 /* ManagedOptionsList.swift in Sources */,
 				784A7F591F9A5E6A00C1F486 /* Api.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
